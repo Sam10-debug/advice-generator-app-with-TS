@@ -16,7 +16,7 @@ body{
 p{
 	font-size: 1.5rem;
 	text-align: center;
-	margin-block: 10px;
+	/* margin-block: 10px; */
 	color: hsl(193, 38%, 86%);
 	font-weight: 600;
 }
@@ -37,7 +37,11 @@ h4{
 	display: none;
 }
 .pattern-divider{
-	margin-block: 20px;
+	/* margin-block: 20px; */
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .dice-div{
 	width: 50px;
